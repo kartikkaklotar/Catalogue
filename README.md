@@ -15,6 +15,15 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
+### Create .env file for evnvironment veriable
+```shell
+$ touch .env
+DEBUG=on
+SECRET_KEY='YOUR-SECRETKEY'
+SQLITE_URL='YOUR-SQLITE-LOCATION'
+API_PAGE_SIZE=5
+```
+
 ### Initialize the development database
 
 ```shell
