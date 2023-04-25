@@ -18,6 +18,7 @@ $ pip install -r requirements.txt
 ### Initialize the development database
 
 ```shell
+$ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py loaddata initial_data
 ```

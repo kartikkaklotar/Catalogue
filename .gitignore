@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 # Ignore database migrations
-**/migrations/*.py
-**/migrations/*.pyc
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
