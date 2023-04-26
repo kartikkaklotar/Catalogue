@@ -17,7 +17,7 @@ $ pip install -r requirements.txt
 
 ### Create .env file for evnvironment veriable
 ```shell
-$ touch .env
+$ vim .env
 DEBUG=on
 SECRET_KEY='YOUR-SECRETKEY'
 SQLITE_URL='YOUR-SQLITE-LOCATION'
